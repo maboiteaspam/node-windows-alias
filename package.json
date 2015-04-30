@@ -1,0 +1,19 @@
+{
+  "name": "node-windows-alias",
+  "version": "1.0.0",
+  "description": "alias unix command for windows using node.",
+  "main": "index.js",
+  "bin":{
+    "winalias":"index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alias",
+    "windows",
+    "node"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF"
+}
