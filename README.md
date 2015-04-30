@@ -8,13 +8,13 @@ A quick and dirty re implementation of alias command for windows system.
 
 ## usage
 
-``bash
+```bash
 
     aliasw ls "dir"
     aliasw whatever "some\"more complex/\"command"
     
 
-``
+```
 
 ## note
 
