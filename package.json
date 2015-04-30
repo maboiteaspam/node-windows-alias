@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "alias unix command for windows using node.",
   "main": "index.js",
-  "bin":{
-    "winalias":"index.js"
+  "bin": {
+    "aliasw": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,11 @@
     "node"
   ],
   "author": "maboiteaspam",
-  "license": "WTF"
+  "license": "WTF",
+  "dependencies": {
+    "cline-parser": "^1.0.0",
+    "commander": "^2.8.1",
+    "fs-extra": "^0.18.2",
+    "path-extra": "^1.0.2"
+  }
 }
